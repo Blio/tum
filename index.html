@@ -1,0 +1,154 @@
+<html>
+<head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <title>Tum Tech Community-www.tumtech.org</title>
+    <link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js/js-image-slider.js" type="text/javascript"></script>
+    <link href="css/generic.css" rel="stylesheet" type="text/css" />
+
+    <link href="css/generic1.css" rel="stylesheet" type="text/css" />
+    <link href="css/slider.css" rel="stylesheet" type="text/css" />
+    <script src="js/thumbnail-slider.js" type="text/javascript"></script>
+    <script src="js/tooltip.js" type="text/javascript"></script>
+    <link href="css/tooltip.css" rel="stylesheet" type="text/css" />
+    <style>
+      .tips b {display:block; text-align:center; margin-bottom:9px;}
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="header">
+            <div id="logo">
+            	<img src="images/logo.png" alt="tumtech logo" width="155" height="58" />
+            </div>
+            <div id="socialmedia">
+            	<ul>
+                    <li><a href="www.facebook.com/groups/1438305673053464/"><img src="social/fb.png"/></a></li>
+
+                    <li><a href="www.twitter.com"><img src="social/twitter.png"/></a></li>
+
+                    <li><a href="www.google.com"><img src="social/google.png"/></a></li>
+
+                    <li><a href="www.rss.com"><img src="social/rss.png"/></a></li>
+            	</ul>
+            </div>
+        </div>
+        <div id="top_nav">
+        	<ul>
+        		<li><a href="#">HOME</a></li>
+        		<li><a href="#">ABOUT</a></li>
+        		<li><a href="#">OUR BLOG</a></li>
+        		<li><a href="#">GALLERY</a></li>
+        		<li><a href="#">PRODUCTS</a></li>
+        		<li><a href="#">CONTACTS</a></li>
+        	</ul>
+        </div>             
+        <div id="slider">
+                <a href="http://www.menucool.com/jquery-slider" target="_blank">
+                    <img src="images/banner2.png" alt="Presentation during Android Programming Session" />
+                        <img src="images/banner (2) copy.png" alt="Welcome to TumTech" />
+                    </a>
+                    <a class="lazyImage" href="images/banner1.png" title="Just coding...programming is fun to us.">Pure JavaScript</a>
+                    <a href="http://www.menucool.com/javascript-image-slider"><img src="images/python.png" alt="Introduction to python session held at JKUAT"></a>
+                    <a class="lazyImage" href="images/Hackerthon.jpg"title="Hackerthon held to raise the website in one night of coding">Slide 4</a>
+        </div>
+                <!--thumbnails-->
+        <div id="thumbs">
+                <div class="thumb">
+                    <div class="frame"><img src="images/banner2.png" /></div>
+                    <div class="thumb-content"><p>Android Events</p>Joan Nabusumba leading the Android Programmers</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="thumb">
+                    <div class="frame"><img src="images/banner1.png" /></div>
+                    <div class="thumb-content"><p>Open Data Day</p>Brighton Mwasaru, representative of TUM at Mombasa Tech....</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="thumb">
+                    <div class="frame"><img src="images/python.png" /></div>
+                    <div class="thumb-content"><p>Python Programming</p>Introduction to python programming</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="thumb">
+                    <div class="frame"><img src="images/Hackerthon.jpg" /></div>
+                    <div class="thumb-content"><p>Web Design</p>Coding Session......students in action</div>
+                    <div style="clear:both;"></div>
+                </div>
+              
+                <!--clear above float:left elements. It is required if above #slider is styled as float:left. -->
+                <div style="clear:both;height:0;"></div>
+            </div>
+         
+         
+            <div id="div3">
+                <h1>TUM TECH GALLERY</h1> 
+                
+            </div>
+            <div class="div2">
+                <div id="mcts1">
+                    <img src="images/slider1.png" onMouseOver="tooltip.pop(this, 'The proposed Desing of the TumTech website being demonstrated to the members')" />
+                    <img src="images/slider2.png" onMouseOver="tooltip.pop(this, '#tip2')" />
+                    <img src="images/slider3.png" onMouseOver="tooltip.pop(this, '#tip3')" />
+                    <a href="http://www.menucool.com" onMouseOver="tooltip.pop(this, '#tipA')"><img src="images/slider4.png" /></a>
+                    <img src="images/slider5.png" onMouseOver="tooltip.pop(this, '#tipB')" />
+                    <img src="images/slider6.png" onMouseOver="tooltip.pop(this, 'The community is composed of different groups, General programming, web developers and Android Developers....this photo was taken during one of their sessions.......')" />
+                    
+                    <img src="images/slider7.png" onMouseOver="tooltip.pop(this, '#tipC')" />
+                    <img src="images/slider8.png" onMouseOver="tooltip.pop(this, 'The community is composed of different groups, General programming, web developers and Android Developers....this photo was taken during one of their sessions')" />
+                    
+                    <img src="images/slider10.png" onMouseOver="tooltip.pop(this, '#tip3')" />
+                    <img src="images/slider11.png" onMouseOver="tooltip.pop(this, '#tip3')" />
+                    <img src="images/slider12.png" onMouseOver="tooltip.pop(this, '#tip3')" />
+                    <img src="images/slider13.png" onMouseOver="tooltip.pop(this, '#tip3')" />
+                </div>
+            </div>
+            <div  style="display:none;">
+                <div id="tip2">
+                    <div class="tips">
+                        <img src="images/slider2.png" style="float:right;margin-left:6px;margin-bottom:6px;width:154px;height:80px;" />
+                       George Ochumba, assistant in Andriod Group leading.....the group is in the race of joining the Android Developer Challenge soon
+                    </div>
+                </div>
+                <div id="tip3">
+                    <div class="tips">
+                        <img src="images/slider3.png" style="float:left;margin-right:8px;margin-bottom:8px;width:87px;height:80px;" />
+                        <b></b>
+                        The community is composed of different groups, General programming, web developers and Android Developers....this photo was taken during one of their sessions
+                    </div>
+                </div>
+                <div id="tip4">
+                    <div class="tips">
+                        <img src="images/slider1.png" style="float:left;margin-right:8px;margin-bottom:8px;width:111px;height:80px;" />
+                        <b>Web Programming</b>
+                        Members of the community are introduced to web development skills.This group is led by Fredrick Ndambukis
+                    </div>
+                </div>
+                <div id="tipA">
+                    <div class="tips">
+                    	<img src="images/python.png" style="float:left;margin-right:8px;margin-bottom:8px;width:111px;height:80px;" />
+                        <b>Python Programmming</b>
+                        The community is composed of different groups, General programming, web developers and Android Developers....this photo was taken during one of their sessions
+                    </div>
+                </div>
+                <div id="tipB">
+                    <div class="tips">
+                        <b>Androoid Session</b>
+                        The community is composed of different groups, General programming, web developers and Android Developers....this photo was taken during one of their sessions
+                    </div>
+                </div>
+                <div id="tipC">
+                    <div class="tips">
+                        <img src="images/slider7.png" style="float:left;margin-right:8px;margin-bottom:8px;width:140px;height:80px;" />
+                        <b>jQuery Slider with Tooltip</b>
+                        The community is composed of different groups, General programming, web developers and Android Developers....this photo was taken during one of their sessions
+                    </div>
+                </div>
+            </div>        	
+        <div id="footer">       	
+          <ul>
+             <p>&copy;2014. All Rights Reserved To TumTech Community</p>
+          </ul>
+        </div>
+    </div>
+</body>
+</html>

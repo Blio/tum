@@ -1,0 +1,61 @@
+/*Global*/
+body{ background-color:#FFF; }
+/*Text*/
+/*List*/
+/*Tables*/
+/*Images*/
+/*Containers*/
+
+#outer{ width:960px; margin:0 auto;background-color:#CCC;}
+#header {background-color: #FFF;}
+
+#logo{ float:left; margin-top:5px; margin-left:15px;}
+
+#socialmedia{ float:right;margin-right:15px;}
+#socialmedia ul li{ display:inline}
+#top_nav{ clear:both; background-image:url(Prototype%20copy.png);}
+#top_nav ul {border-top:1px #000 solid; border-bottom:1px #000 solid; padding:10px; padding-left:15px;}
+#top_nav ul li{  display:inline;padding-right:30px; }
+#top_nav ul li a{text-decoration:none; background-color:#CCC}
+#events{ float:left; width:210px; height:300px;border:1px #000 solid;}
+#events ul{ padding-top:20px;}
+#events  ul li{ padding-bottom:20px;}
+#banner{ float:right;}
+#div3 h1{ clear:both; text-align:center; padding-top:10px; color:#804040; }
+#footer{ clear:both;background-image:url(Prototype%20copy.png);}
+#footer {border-top:1px #000 solid; border-bottom:1px #000 solid; background-image:url(prototype%20copy.png); margin-top:10px;}
+#footer p{text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Forms*/
+/*Miscellaneous*/
